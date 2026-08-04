@@ -1,7 +1,7 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-* Northstar Medical Group (fictional) relied on a managed service provider to handle their IT infrastructure. As company grew to 200+ employees, the MSP left the active directory disorganized. Users were manually added without organizational unit structure, and role-based access controls. Inconsistent access, and the lack of organization introduced HIPPA risks.
+* Northstar Medical Group (fictional) relied on a managed service provider to handle their IT infrastructure. As the company grew to 200+ employees, the MSP left the active directory disorganized. Users were manually added without organizational unit structure, and role-based access controls. Inconsistent access, and the lack of organization introduced HIPPA risks.
 
 ## Solution Overview
 
