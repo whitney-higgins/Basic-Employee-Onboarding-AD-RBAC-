@@ -1,0 +1,16 @@
+1. Jane's user identity is in the Operation OU.
+2. Jane Cooper is currently in the Operations OU. She is a Payroll Specialist so she is supposed to be in the HR OU.
+3. Jane Cooper is a member of the Operations-Users. She should be a member of HR-Users.
+
+Jane recieved an access denied error because her identity was incorrectly placed in the Opeations OU. This is why she doesn't have access to the correct HR policies.
+
+Ticket number: NMG-0047
+Affected user: Jane Cooper (jcooper@NMG.com)
+Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates.
+Root cause: Jane Cooper's idenity was incorrectly placed in the Operations OU  and Operations-Users.
+Fix applied: I moved Jane Cooper's identity to the HR OU. I also moved her the HR-Users security group.
+Verification: To confirm the issue's resolution, I reviewed the HR OU and HR security group lists and took screenshots.
+
+Date resolved: 8/3/36
+
+Resolved by: Whitney Higgins
