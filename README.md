@@ -1,11 +1,10 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-* Northstar Medical Group (fictional) relied on a managed service provider to handle their IT infrastructure. As the company grew to 200+ employees, the MSP left the active directory disorganized. Users were manually added without organizational unit structure, and role-based access controls. Inconsistent access, and the lack of organization introduced HIPPA risks.
+* Northstar Medical Group (fictional) relied on a managed service provider to handle their IT infrastructure. As the company grew to 200+ employees, the MSP's mismanagement resulted in a disorganized Active Directory. User accounts weren't organized into Organizational Units, and RBAC. Some users had access to sensitive resources they didn't need, while others couldn't access what they needed. This inconsistency put sensitive resources at risk and could have led to NMG violating HIPAA requirements. 
 
 ## Solution Overview
-
-* I built an NMG.com Active Directory domain with OU structure based on departments. I implemented role-based access control by creating department specific security groups and assigned users to those groups based on their roles. All user accounts now have consistent naming conventions and attributes. 
+* I built an NMG.com Active Directory domain and created OUs based on departments. I implemented RBAC by creating security groups and assigning users to those groups based on their roles. I ensured users have access to resources specific to their job roles.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
@@ -24,8 +23,3 @@
 * Day 3: User provisioning and RBAC implementation
 * Day 4: Incident response and resolution (NMG-0047)
 * Day 5: Documentation and case study packaging
-
-## Key Accomplishments
-* Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
