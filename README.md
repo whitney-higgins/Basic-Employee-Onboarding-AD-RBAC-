@@ -7,7 +7,7 @@
 * I built an NMG.com Active Directory domain and created OUs based on departments. I implemented RBAC by creating security groups and assigning users to those groups based on their roles. I ensured users have access to resources specific to their job roles.
 
 ## Video Walkthrough
-(<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/e79711293549415fb4ec2dfb619b78aa" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+[AD Domain Walkthrough](https://www.loom.com/share/e79711293549415fb4ec2dfb619b78aa)
 
 ## Tools Used
 * Windows Server
